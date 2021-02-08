@@ -214,3 +214,72 @@ button:focus {
     color: #4b6cc1;
     fill: currentColor;
   }
+
+
+@media(max-width: 768px){
+
+  nav{
+    padding: 1rem 2rem;
+  }
+  .logo{
+    font-size: 24px;
+  }
+  .bg{
+    padding: 3rem;
+    height: 1000px;
+  }
+  .profile_text{
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .profile_pic_wrap{
+    margin-left: 0;
+    padding: 2rem;    
+  }
+  .project_line{
+    margin: 0 2rem;
+    padding: 20px;
+  }
+  .project_block{
+    margin: 0 2rem 5rem;
+    height: 180px;
+    width: 80%;
+  }
+  .project_block img{
+    width: 100%;
+    box-shadow:none;
+  }
+  .project_title{
+    width: 90%;
+    font-size: 26px;
+    margin: auto;
+  }
+  .pic_wrap{
+    overflow: hidden;
+    height: 200px;
+    width: 80vw;
+margin: 0;
+  }
+  .project_detail{
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .intro{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+  }
+  .project{
+    font-size: 20px;
+  }
+  .footer{
+    height: auto;
+  }
+  .block{
+    width: 90%;
+    margin: auto;
+  }
+  .link{
+    margin: 2rem;
+  }
+}
