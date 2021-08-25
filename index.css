@@ -62,9 +62,8 @@ button:focus {
   padding: 4rem;
   height: 350px;
 }
-
 .profile_pic img {
-  width: 400px; 
+  width: 400px;
 }
 
 .profile_text {
@@ -216,7 +215,7 @@ button:focus {
   }
 
 
-@media(max-width: 768px){
+@media(max-width: 1000px){
 
   nav{
     padding: 1rem 2rem;
@@ -225,16 +224,29 @@ button:focus {
     font-size: 24px;
   }
   .bg{
-    padding: 3rem;
+    padding: 2rem;
     height: 1000px;
   }
   .profile_text{
     width: 100%;
     margin-bottom: 3rem;
+    margin-left: 2rem;
+    /*text-align: center;*/
+  }
+  .pic_area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   .profile_pic_wrap{
+    padding: 2rem;
     margin-left: 0;
-    padding: 2rem;    
+  }
+  .profile_pic{
+    width: 400px;
+  }
+  .profile_pic img {
+    width: 100%;
   }
   .project_line{
     margin: 0 2rem;
@@ -243,7 +255,7 @@ button:focus {
   .project_block{
     margin: 0 2rem 5rem;
     height: 180px;
-    width: 80%;
+    width: 75vw;
   }
   .project_block img{
     width: 100%;
@@ -257,8 +269,8 @@ button:focus {
   .pic_wrap{
     overflow: hidden;
     height: 200px;
-    width: 80vw;
-margin: 0;
+    width: 75vw;
+    margin: 0;
   }
   .project_detail{
     width: 90%;
